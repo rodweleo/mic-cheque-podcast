@@ -38,7 +38,7 @@ export default function NowPlayingBar() {
     return (
         <section className="bg-yellow-800 w-full p-5 flex items-center justify-around">
             <div className="flex gap-2 min-w-[300px]">
-                <img src="/src/assets/images/MiqChequePodcast_Logojpg.jpg" className="rounded-full" alt="Mic Cheque Hosts" width="50px" />
+                <img src="/images/MiqChequePodcast_Logo.jpg" className="rounded-full" alt="Mic Cheque Hosts" width="50px" />
                 <div>
                     <h1 className="font-bold text-lg text-white">Welcome Home</h1>
                     <p className="font-semibold text-md text-slate-300">John Doe</p>

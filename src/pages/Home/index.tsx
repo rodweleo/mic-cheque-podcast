@@ -24,7 +24,7 @@ export default function Home() {
                     </ul>
                 </div>
             </div>
-            <img src="/src/assets/images/MiqChequePodcast_Logojpg.jpg" className="rounded-full" alt="Mic Cheque Hosts"/>
+            <img src="/images/MiqChequePodcast_Logo.jpg" className="rounded-full" alt="Mic Cheque Hosts"/>
         </section>
 
         <section className="min-h-screen space-y-10 w-full p-10 py-20">
@@ -42,7 +42,7 @@ export default function Home() {
         <section className="h-fit flex flex-wrap gap-20 justify-center py-20 p-5">
            <div className="relative w-fit">
                 <div className="bg-yellow-200 bg-opacity-80 rounded-full size-20 absolute -right-5"></div>
-                <img src="/src/assets/images/MiqChequePodcast_Logojpg.jpg" loading="lazy" alt="Mic Cheque"/>
+                <img src="/images/MiqChequePodcast_Logo.jpg" loading="lazy" alt="Mic Cheque"/>
                 <div className="bg-yellow-200 bg-opacity-80 rounded-full animate-pulse size-30 absolute -left-5 bottom-0"></div>
            </div>
            <div className="space-y-5 max-w-xl flex flex-col justify-between">

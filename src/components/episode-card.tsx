@@ -4,7 +4,7 @@ import { Badge } from "./ui/badge";
 export default function EpisodeCard(){
     return <div className="relative max-w-[350px] space-y-2">
         <div className="relative">
-            <img src="/src/assets/images/MiqChequePodcast_Logojpg.jpg" width="350px"/>
+            <img src="/images/MiqChequePodcast_Logo.jpg" width="350px" alt="Mic Cheque"/>
             <span className="bg-black text-white py-3 px-6 absolute bottom-5 right-0 font-semibold text-xl">EP 69</span>
         </div>
         <div className="space-y-2">
