@@ -58,7 +58,7 @@ export default function Home() {
            </div>
         </section>
 
-        <section className="min-h-screen space-y-10 w-full p-10">
+        <section className="space-y-10 w-full p-10">
             <h1 className="font-bold sm:text-5xl text-center">Topics</h1>
             <div className="w-full flex flex-wrap justify-center items-center gap-10">
                 <TopicCard/>
