@@ -1,4 +1,5 @@
 import EpisodeCard from "@/components/episode-card";
+import RetroGrid from "@/components/magicui/retro-grid";
 import SubscribeNewsletter from "@/components/subscribe-newsletter";
 import TopicCard from "@/components/topic-card";
 import { Button } from "@/components/ui/button";
@@ -66,7 +67,8 @@ export default function Home() {
             </div>
         </section>
 
-        <section className="px-10 py-20 grid grid-cols-1 place-items-center space-y-10 bg-gradient-to-r from-yellow-300 via-yellow-200 to-yellow-300">
+        <section className="relative px-10 py-20 grid grid-cols-1 place-items-center space-y-10 bg-gradient-to-r from-yellow-300 via-yellow-200 to-yellow-300">
+            <RetroGrid/>
             <header className="space-y-2.5 text-center max-w-3xl">
                 <h1 className="text-slate-800 font-bold sm:text-5xl">Keep in Touch and Stay Inspiring Everyday</h1>
                 <p className="text-slate-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae debitis aperiam eius enim velit, nam facilis autem aut magnam deserunt fugit in deleniti quo odit suscipit. Dolor quaerat soluta fugiat.</p>
